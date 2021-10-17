@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,10 +20,32 @@ body {
 
 /* page title and navigation menu */
 
+.active {
+    color: #cc4418;
+}
+
 #page-title {
     font-family: Ghastly Panic, sans-serif;
     font-size: 900%;
     color: #cc4418;
+    margin: 1.5rem auto auto 3rem;
+}
+
+nav {
+    margin: 0 3em auto 90em;
+    position: relative;
+    bottom: 10em;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.separator {
+    margin: 0 1.5em;
 }
 
 a {
