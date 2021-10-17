@@ -10,3 +10,27 @@
     padding: 0;
     border: none;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #2a2036;
+    color: #faf3be;
+}
+
+/* page title and navigation menu */
+
+#page-title {
+    font-family: Ghastly Panic, sans-serif;
+    font-size: 900%;
+    color: #cc4418;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #cc4418;
+    text-shadow: #faf3be;
+}
