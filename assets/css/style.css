@@ -18,7 +18,11 @@ body {
     color: #faf3be;
 }
 
-/* page title and navigation menu */
+/* header and navigation menu */
+
+header {
+    margin-bottom: -6rem;
+}
 
 .active {
     color: #cc4418;
@@ -29,12 +33,15 @@ body {
     font-size: 900%;
     color: #cc4418;
     margin: 1.5rem auto auto 3rem;
+    position: relative;
+    z-index: 2;
 }
 
 nav {
     margin: 0 3em auto 90em;
     position: relative;
     bottom: 10em;
+    z-index: 2;
 }
 
 #menu {
@@ -56,4 +63,16 @@ a {
 a:hover {
     color: #cc4418;
     text-shadow: #faf3be;
+}
+
+/* hero image */
+
+#hero-image {
+    width: auto;
+    height: 600px;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 1.5em 1.5em #181517;
 }
