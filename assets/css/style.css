@@ -32,14 +32,14 @@ header {
     font-family: Ghastly Panic, sans-serif;
     font-size: 900%;
     color: #cc4418;
-    margin: 1.5rem auto auto 3rem;
+    margin: 1.5rem auto auto 6rem;
     position: relative;
     z-index: 2;
     text-shadow: 0 0 6px #cc4418;
 }
 
 nav {
-    margin: 0 3em auto 90em;
+    margin: 0 6rem auto 90rem;
     position: relative;
     bottom: 10em;
     z-index: 2;
@@ -87,4 +87,23 @@ a:hover {
 
 #hero-image:hover {
     transform: scale(1.3);
+}
+
+/* mid section */
+
+div>span {
+    display: inline-block;
+    width: 33%;
+}
+
+.mid-section-content {
+    margin: 6rem;
+    width: 66%;
+}
+
+h2 {
+    font-family: Ghastly Panic, sans-serif;
+    font-size: 600%;
+    color: #cc4418;
+    margin-left: 15%;
 }
