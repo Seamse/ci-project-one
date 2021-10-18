@@ -91,12 +91,7 @@ a:hover {
 
 /* mid section */
 
-div>span {
-    display: inline-block;
-    width: 15%;
-}
-
-.mid-section-content {
+#mid-section-content {
     margin: 6rem;
 }
 
@@ -104,18 +99,21 @@ h2 {
     font-family: Ghastly Panic, sans-serif;
     font-size: 750%;
     color: #cc4418;
-    margin-left: 15%;
+    margin: 1rem 15% 1rem 10%;
+    text-shadow: 0 0 6px #181517;
 }
 
-.breathing-space {
-    margin: 6rem;
-}
-
-img {
-    width: 30%;
+div>img {
+    width: 100%;
     height: auto;
-    border-radius: 30%;
+    border-radius: 25%;
     display: inline;
+}
+
+.info-box {
+    display: inline-block;
+    width: 22%;
+    margin: 1rem 0;
 }
 
 #content-right {
