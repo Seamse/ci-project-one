@@ -95,6 +95,16 @@ a:hover {
     margin: 6rem;
 }
 
+#routes>h3 {
+    font-size: 200%;
+    padding-bottom: 1rem;
+}
+
+#routes>p {
+    font-size: 150%;
+    padding-top: 1rem;
+}
+
 h2 {
     font-family: Ghastly Panic, sans-serif;
     font-size: 750%;
@@ -118,4 +128,30 @@ div>img {
 
 #content-right {
     text-align: right;
+}
+
+.entice {
+    font-size: 200%;
+    padding: 1rem;
+}
+
+.right-image {
+    position: relative;
+    left: 21rem;
+    bottom: 12rem;
+}
+
+.center-div {
+    position: relative;
+    left: 9rem;
+    bottom: 15rem;
+}
+
+.left-div {
+    position: relative;
+    bottom: 15rem;
+}
+
+.text-left {
+    text-align: left;
 }
