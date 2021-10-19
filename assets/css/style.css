@@ -212,7 +212,7 @@ iframe {
 /* footer */
 
 footer {
-    margin-top: 12rem;
+    margin-top: 9rem;
     text-align: center;
     width: 100%;
     bottom: 0;
@@ -264,7 +264,12 @@ input[type="checkbox"]:checked~div {
 }
 
 #join-us {
-    margin: 12rem auto 24rem 9rem;
+    position: relative;
+    top: 260px;
+    left: 450px;
+    color: #181517;
+    font-weight: 900;
+    font-size: 200%;
 }
 
 .dropdown {
