@@ -95,12 +95,12 @@ a:hover {
     margin: 6rem;
 }
 
-#routes>h3 {
+.info-box>h3 {
     font-size: 200%;
     padding-bottom: 1rem;
 }
 
-#routes>p {
+.info-box>p {
     font-size: 150%;
     padding-top: 1rem;
 }
@@ -113,17 +113,25 @@ h2 {
     text-shadow: 0 0 6px #181517;
 }
 
+hr {
+    background: url('../images/hr2.png') no-repeat center top;
+    display: block;
+    margin: -12rem 0 -3rem 0;
+    border: 0;
+    height: 24rem;
+}
+
 div>img {
     width: 100%;
     height: auto;
-    border-radius: 25%;
+    border-radius: 50%;
     display: inline;
+    box-shadow: 0 0 1.5em 1.5em #181517;
 }
 
 .info-box {
     display: inline-block;
     width: 22%;
-    margin: 1rem 0;
 }
 
 #content-right {
@@ -131,7 +139,7 @@ div>img {
 }
 
 .entice {
-    font-size: 200%;
+    font-size: 150%;
     padding: 1rem;
 }
 
@@ -143,12 +151,31 @@ div>img {
 
 .center-div {
     position: relative;
-    left: 9rem;
+    left: 15%;
     bottom: 15rem;
 }
 
 .left-div {
     position: relative;
+    left: 10%;
+    bottom: 15rem;
+}
+
+.left-image {
+    position: relative;
+    right: 21rem;
+    bottom: 12rem;
+}
+
+.bottom-center-div {
+    position: relative;
+    right: 10%;
+    bottom: 15rem;
+}
+
+.bottom-right-div {
+    position: relative;
+    right: 15%;
     bottom: 15rem;
 }
 
