@@ -240,10 +240,6 @@ footer>a {
 
 /* sign up page */
 
-section {
-    height: 800px;
-}
-
 #form-section {
     background: url('../images/form-bg.jpg') no-repeat center center;
     width: 100%;
