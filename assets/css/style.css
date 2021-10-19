@@ -101,7 +101,7 @@ a:hover {
 }
 
 .info-box>p {
-    font-size: 150%;
+    font-size: 130%;
     padding-top: 1rem;
 }
 
@@ -187,19 +187,20 @@ div>img {
 
 #halloween-videos {
     text-align: center;
+    width: 100vw;
 }
 
-.fun-video {
+.video-container {
     display: inline-flex;
-    margin-top: -21rem;
-    padding: 3rem;
+    margin-top: -9rem;
+    padding: 1.5rem 6rem 0 6rem;
     position: relative;
 }
 
 .video-header {
     position: absolute;
     z-index: 1;
-    top: -0rem;
+    top: 0;
     color: #cc4418;
 }
 
@@ -211,13 +212,13 @@ iframe {
 /* footer */
 
 footer {
-    margin-top: 3rem;
-	text-align: center;
+    margin-top: 12rem;
+    text-align: center;
     width: 100%;
     bottom: 0;
     right: 0;
     color: #E28653;
-    font-size: 300%;
+    font-size: 230%;
 }
 
 footer>a {
