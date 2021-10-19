@@ -182,3 +182,28 @@ div>img {
 .text-left {
     text-align: left;
 }
+
+/* Video section */
+
+#halloween-videos {
+    text-align: center;
+    margin-top: -12rem;
+}
+
+.fun-video {
+    display: inline-flex;
+    margin: 3%;
+    position: relative;
+}
+
+.video-header {
+    position: absolute;
+    z-index: 1;
+    top: -3rem;
+    color: #cc4418;
+}
+
+iframe {
+    width: 27rem;
+    height: 15rem;
+}
