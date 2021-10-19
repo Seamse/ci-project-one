@@ -237,3 +237,30 @@ footer>a {
 #gallery>img {
     width: 100%;
 }
+
+/* sign up page */
+
+form {
+    width: 30vw;
+}
+
+input[type="checkbox"]~input,
+input[type="checkbox"]~label,
+input[type="checkbox"]~div {
+    visibility: hidden;
+}
+
+input[type="checkbox"]:checked~input,
+input[type="checkbox"]:checked~label,
+input[type="checkbox"]:checked~div {
+    visibility: visible;
+}
+
+#join-us {
+    margin: 12rem auto 24rem 9rem;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
