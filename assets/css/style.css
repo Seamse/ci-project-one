@@ -108,7 +108,7 @@ a:hover {
 h2 {
     font-family: Ghastly Panic, sans-serif;
     font-size: 750%;
-    color: #cc4418;
+    color: #E28653;
     margin: 1rem 15% 1rem 10%;
     text-shadow: 0 0 6px #181517;
 }
@@ -183,27 +183,43 @@ div>img {
     text-align: left;
 }
 
-/* Video section */
+/* video section */
 
 #halloween-videos {
     text-align: center;
-    margin-top: -12rem;
 }
 
 .fun-video {
     display: inline-flex;
-    margin: 3%;
+    margin-top: -21rem;
+    padding: 3rem;
     position: relative;
 }
 
 .video-header {
     position: absolute;
     z-index: 1;
-    top: -3rem;
+    top: -0rem;
     color: #cc4418;
 }
 
 iframe {
     width: 27rem;
     height: 15rem;
+}
+
+/* footer */
+
+footer {
+    margin-top: 3rem;
+	text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    color: #E28653;
+    font-size: 300%;
+}
+
+footer>a {
+    padding: 9rem;
 }
