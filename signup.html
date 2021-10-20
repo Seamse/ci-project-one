@@ -35,20 +35,19 @@
         </nav>
     </header>
     <section id="form-section">
-        <form action="https://formdump.codeinstitute.net" method="POST" id="join-us">
+        <form action="https://formdump.codeinstitute.net" method="POST">
             <fieldset>
                 <legend>Come Trick or Treating!</legend>
-                <label for="trick-or-treat">Join us:</label>
+                <label for="trick-or-treat">Click here:</label>
                 <input id="trick-or-treat" name="trick-or-treat" type="checkbox">
                 <br><br>
-                <label for="fname">First Name:</label>
-                <input id="fname" name="first_name" type="text" placeholder="your first name" required>
-                <label for="lname">Last Name:</label>
-                <input id="lname" name="last_name" type="text" placeholder="your last name" required>
-                <label for="email">Email:</label>
-                <input id="email" name="email" type="email" placeholder="your email" required>
-                <label for="adults">No. of adults:</label>
-                <div class="dropdown">
+                <div><label for="fname">First Name:</label>
+                    <input id="fname" name="first_name" type="text" placeholder="your first name" required></div>
+                <div><label for="lname">Last Name:</label>
+                    <input id="lname" name="last_name" type="text" placeholder="your last name" required></div>
+                <div><label for="email">Email:</label>
+                    <input id="email" name="email" type="email" placeholder="your email" required></div>
+                <div><label for="adults">No. of adults:</label>
                     <select name="number-of-adults" id="adults">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -60,10 +59,8 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                         <option value="10">10</option>
-                    </select>
-                </div>
-                <label for="children">No. of children:</label>
-                <div class="dropdown">
+                    </select></div>
+                <div><label for="children">No. of children:</label>
                     <select name="number-of-children" id="children">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -75,12 +72,11 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                         <option value="10">10</option>
-                    </select>
-                </div>
-                <label for="route-1">Route 1</label>
-                <input id="route-1" type="radio" name="route_preference" value="route 1">
-                <label for="route-2">Route 2</label>
-                <input id="route-2" type="radio" name="route_preference" value="route 2">
+                    </select></div>
+                <div><input id="route-1" type="radio" name="route_preference" value="route 1">
+                    <label for="route-1">Route 1</label>
+                    <input id="route-2" type="radio" name="route_preference" value="route 2">
+                    <label for="route-2">Route 2</label></div>
                 <input type="submit" class="join-button" value="Trick or Treat!">
             </fieldset>
         </form>

@@ -249,30 +249,24 @@ footer>a {
 
 form {
     width: 30vw;
+    position: absolute;
+    top: 360px;
+    left: 390px;
+    background-color: rgba(24, 21, 23, 0.6);
+    font-weight: 600;
+    font-size: 150%;
+    text-align: center;
 }
 
 input[type="checkbox"]~input,
 input[type="checkbox"]~label,
 input[type="checkbox"]~div {
-    visibility: hidden;
+    display: none;
 }
 
 input[type="checkbox"]:checked~input,
 input[type="checkbox"]:checked~label,
 input[type="checkbox"]:checked~div {
-    visibility: visible;
-}
-
-#join-us {
-    position: relative;
-    top: 260px;
-    left: 450px;
-    color: #181517;
-    font-weight: 900;
-    font-size: 200%;
-}
-
-.dropdown {
-    display: inline-block;
-    position: relative;
+    display: flex;
+    flex-direction: row;
 }
