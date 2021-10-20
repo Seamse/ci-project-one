@@ -36,6 +36,7 @@ header {
     position: relative;
     z-index: 2;
     text-shadow: 0 0 6px #cc4418;
+    letter-spacing: 6px;
 }
 
 nav {
@@ -43,6 +44,7 @@ nav {
     position: relative;
     bottom: 10em;
     z-index: 2;
+    letter-spacing: 1.5px;
 }
 
 #menu {
@@ -247,6 +249,10 @@ footer>a {
     background-size: cover;
 }
 
+legend {
+    letter-spacing: 1.5px;
+}
+
 #trick-form {
     width: 30vw;
     position: absolute;
@@ -256,6 +262,7 @@ footer>a {
     font-weight: 600;
     font-size: 150%;
     text-align: center;
+    padding-top: 1rem;
 }
 
 #home-form {
@@ -267,6 +274,7 @@ footer>a {
     font-weight: 600;
     font-size: 150%;
     text-align: center;
+    padding-top: 1rem;
 }
 
 input[type="checkbox"]~input,
