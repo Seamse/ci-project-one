@@ -327,6 +327,7 @@ select,
 
 #radio-buttons {
     justify-content: center;
+    font-size: 75%;
 }
 
 .join-button {
