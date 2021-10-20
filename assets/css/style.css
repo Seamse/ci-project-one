@@ -323,6 +323,15 @@ select,
 #housenumber {
     width: 15%;
     height: 30px;
+    margin-left: 239px;
+}
+
+#dropdown1 {
+    margin-left: 47px;
+}
+
+#dropdown2 {
+    margin-left: 27px;
 }
 
 #radio-buttons {
@@ -348,4 +357,8 @@ select,
     color: #181517;
     background-color: #E28653;
     box-shadow: 0 0 6px #faf3be;
+}
+
+.second-button {
+    margin-top: 74px;
 }
