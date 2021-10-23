@@ -28,7 +28,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 3rem 0 3rem;
+    margin: 0 0.5rem 0 0.5rem;
     height: 15vh;
     padding: 1.5em;
     position: relative;
@@ -102,6 +102,24 @@ a:hover {
 #mid-content {
     display: flex;
     flex: 1;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Ghastly Panic, sans-serif;
+    font-size: 666%;
+    color: #E28653;
+    text-shadow: 0 0 6px #181517;
+    position: absolute;
+    padding: 6rem;
+}
+
+#mid-left-header {
+    margin-right: 60vw;
+}
+
+#mid-right-header {
+    margin-left: 60vw;
 }
 
 #mid-section-left,
@@ -110,9 +128,9 @@ a:hover {
     display: inline-flex;
     align-items: center;
     position: relative;
-    top: 9em;
+    top: 6em;
     max-width: 30vw;
-    padding: 0 3rem 0 3rem;
+
 }
 
 #mid-section-left,
@@ -122,11 +140,11 @@ a:hover {
 }
 
 #mid-section-left {
-    margin-left: 6rem;
+    margin-left: 9rem;
 }
 
 #mid-section-right {
-    margin-right: 6rem;
+    margin-right: 9rem;
 }
 
 .info-box>h3 {
@@ -142,19 +160,6 @@ a:hover {
 
 p>span {
     font-weight: 600;
-}
-
-#right-title {
-    left: 60vw;
-}
-
-h2 {
-    font-family: Ghastly Panic, sans-serif;
-    font-size: 750%;
-    color: #E28653;
-    text-shadow: 0 0 6px #181517;
-    position: absolute;
-    margin: 4.5rem 0 0 6rem;
 }
 
 .entice {
@@ -184,7 +189,8 @@ hr {
 
 #halloween-videos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 1.5rem 0 1.5rem;
 }
 
 .video-header {
@@ -335,3 +341,5 @@ select,
     background-color: #E28653;
     box-shadow: 0 0 6px #faf3be;
 }
+
+/* media queries */
