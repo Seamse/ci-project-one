@@ -281,7 +281,6 @@ legend {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    list-style-type: none;
 }
 
 .form-layout>li>label {
