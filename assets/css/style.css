@@ -107,7 +107,7 @@ a:hover {
 
 h2 {
     font-family: Ghastly Panic, sans-serif;
-    font-size: 666%;
+    font-size: 500%;
     color: #E28653;
     text-shadow: 0 0 6px #181517;
     position: absolute;
@@ -115,11 +115,11 @@ h2 {
 }
 
 #mid-left-header {
-    margin-right: 60vw;
+    margin-right: 54vw;
 }
 
 #mid-right-header {
-    margin-left: 60vw;
+    margin-left: 54vw;
 }
 
 #mid-section-left,
@@ -128,7 +128,7 @@ h2 {
     display: inline-flex;
     align-items: center;
     position: relative;
-    top: 6em;
+    top: 9em;
     max-width: 30vw;
 
 }
@@ -147,6 +147,10 @@ h2 {
     margin-right: 9rem;
 }
 
+.info-box {
+    max-width: 16vw;
+}
+
 .info-box>h3 {
     font-size: 200%;
     padding-bottom: 0.5rem;
@@ -155,7 +159,6 @@ h2 {
 .info-box>p {
     font-size: 130%;
     padding-top: 1rem;
-    max-width: 21vw;
 }
 
 p>span {
@@ -169,10 +172,11 @@ p>span {
 
 .text-right {
     text-align: right;
+    margin-right: 3rem;
 }
 
 div>img {
-    width: 20vw;
+    width: 18vw;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 0 1.5em 1.5em #181517;
@@ -183,6 +187,7 @@ hr {
     background: url('../images/hr2.png') no-repeat center top;
     display: block;
     height: 21rem;
+    margin-top: 3rem;
 }
 
 /* video section */
@@ -343,3 +348,54 @@ select,
 }
 
 /* media queries */
+
+/* for larger screens size from 1500px wide and down */
+
+@media screen and (max-width:1500px) {
+
+    #mid-content {
+        flex-direction: column;
+    }
+
+    h2 {
+        position: relative;
+    }
+
+    #mid-section-left,
+    #mid-section-right {
+        top: -9em;
+    }
+
+    #mid-right-header,
+    #mid-left-header,
+    #mid-section-right,
+    #mid-section-left {
+        margin: 0 auto;
+    }
+
+    div>img {
+        margin-top: -9em;
+    }
+
+    hr {
+        margin-top: -12em;
+    }
+
+    #gallery {
+        column-count: 4;
+    }
+
+}
+
+
+/* for medium screens size from 1350px wide and down */
+
+@media screen and (max-width:1350px) {}
+
+/* for small to medium screens size from 950px and down */
+
+@media screen and (max-width:950px) {}
+
+/* for small screens size from 800px wide and down */
+
+@media screen and (max-width:800px) {}
