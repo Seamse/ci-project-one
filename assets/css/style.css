@@ -57,6 +57,7 @@ nav {
     display: flex;
     list-style-type: none;
     flex: none;
+    font-size: 120%;
 }
 
 .separator {
@@ -261,11 +262,10 @@ legend {
 #trick-form,
 #home-form {
     width: 30vw;
-    height: 60vh;
     background-color: rgba(24, 21, 23, 0.6);
     font-weight: 600;
     font-size: 130%;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .text-input {
@@ -309,6 +309,11 @@ select,
 #radio-buttons {
     justify-content: center;
     padding: 9px;
+}
+
+#right-button {
+    justify-content: end;
+    margin-right: 3rem;
 }
 
 .join-button {

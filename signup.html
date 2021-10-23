@@ -23,11 +23,11 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <span class="separator">|</span>
+                <span class="separator"><i class="fas fa-cat"></i></span>
                 <li>
                     <a href="gallery.html">Costume Gallery</a>
                 </li>
-                <span class="separator">|</span>
+                <span class="separator"><i class="fas fa-cat"></i></span>
                 <li>
                     <a href="signup.html" class="active">Sign Up</a>
                 </li>
@@ -78,14 +78,13 @@
                             <option value="10">10</option>
                         </select></li>
                     <ul id="radio-buttons">
-                        <li><input id="route-1" type="radio" name="route_preference" value="route 1" required>
+                        <li><input id="route-1" type="radio" name="route" value="route 1" required>
                             <label for="route-1">Route 1</label></li>
-                        <span class="separator">|</span>
-                        <li><input id="route-2" type="radio" name="route_preference" value="route 2">
+                        <span class="separator"><i class="fas fa-crow"></i></span>
+                        <li><input id="route-2" type="radio" name="route" value="route 2">
                             <label for="route-2">Route 2</label></li>
+                        <li><input type="submit" class="join-button" value="Trick or Treat!"></li>
                     </ul>
-                    <li><input type="submit" class="join-button" value="Trick or Treat!"></li>
-                </ul>
             </fieldset>
         </form>
         <form action="https://formdump.codeinstitute.net" method="POST" id="home-form">
@@ -113,9 +112,9 @@
                             <option value="Shadow Avenue">Shadow Avenue</option>
                             <option value="Devil's Dyke Road">Devil's Dyke Road</option>
                         </select></li>
-                    <li><label for="housenumber">Housenumber:</label>
+                    <li><label for="housenumber">House no.:</label>
                         <input id="housenumber" name="housenumber" type="text" placeholder="No." required></li>
-                    <li><input type="submit" class="join-button" value="Trick or Treat!"></li>
+                    <li id="right-button"><input type="submit" class="join-button" value="Trick or Treat!"></li>
                 </ul>
             </fieldset>
         </form>
