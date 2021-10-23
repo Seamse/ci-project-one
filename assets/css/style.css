@@ -226,64 +226,70 @@ footer>a {
 
 /* sign up page */
 
+input[type="checkbox"]~input,
+input[type="checkbox"]~label,
+input[type="checkbox"]~ul {
+    display: none;
+}
+
+input[type="checkbox"]:checked~input,
+input[type="checkbox"]:checked~label {
+    display: flex;
+}
+
+input[type="checkbox"]:checked~ul {
+    display: flex;
+    flex-direction: column;
+}
+
 #form-section {
     background: url('../images/form-bg.jpg') no-repeat center center;
     width: 100%;
     height: 900px;
     background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 legend {
     letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
-#trick-form {
-    width: 30vw;
-    position: absolute;
-    top: 300px;
-    left: 360px;
-    background-color: rgba(24, 21, 23, 0.6);
-    font-weight: 600;
-    font-size: 150%;
-    text-align: center;
-    padding-top: 1rem;
-}
-
+#trick-form,
 #home-form {
     width: 30vw;
-    position: absolute;
-    top: 300px;
-    right: 360px;
+    height: 60vh;
     background-color: rgba(24, 21, 23, 0.6);
     font-weight: 600;
-    font-size: 150%;
-    text-align: center;
+    font-size: 130%;
     padding-top: 1rem;
-}
-
-input[type="checkbox"]~input,
-input[type="checkbox"]~label,
-input[type="checkbox"]~div {
-    display: none;
-}
-
-input[type="checkbox"]:checked~input,
-input[type="checkbox"]:checked~label,
-input[type="checkbox"]:checked~div {
-    display: flex;
-    flex-direction: row;
 }
 
 .text-input {
     background-color: rgba(42, 32, 54, 0.3);
     border: 1.5px solid #2a2036;
     border-radius: 3%;
-    width: 60%;
-    height: 30px;
-    margin: 0 0 30px 15px;
-    padding: 1rem;
     color: #faf3be;
     font-size: inherit;
+}
+
+.form-layout li,
+#radio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+.form-layout>li>label {
+    flex: 1 0 120px;
+    max-width: 220px;
+    padding: 9px;
+    text-transform: capitalize;
+    text-align: left;
 }
 
 .text-input:hover,
@@ -292,43 +298,18 @@ select:hover,
     border-color: #E28653;
 }
 
-label {
-    margin-left: 6%;
-}
-
 select,
 #housenumber {
     background-color: rgba(42, 32, 54, 0.3);
     color: #faf3be;
     font-size: inherit;
-    text-align: center;
     border: 1.5px solid #2a2036;
     border-radius: 3%;
-    margin: 0 0 30px 15px;
-}
-
-#street {
-    width: 60%;
-    height: 30px;
-}
-
-#housenumber {
-    width: 15%;
-    height: 30px;
-    margin-left: 239px;
-}
-
-#dropdown1 {
-    margin-left: 47px;
-}
-
-#dropdown2 {
-    margin-left: 27px;
 }
 
 #radio-buttons {
     justify-content: center;
-    font-size: 75%;
+    padding: 9px;
 }
 
 .join-button {
@@ -349,8 +330,4 @@ select,
     color: #181517;
     background-color: #E28653;
     box-shadow: 0 0 6px #faf3be;
-}
-
-.second-button {
-    margin-top: 74px;
 }

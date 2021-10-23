@@ -41,17 +41,18 @@
                 <label for="trick-or-treat">click here:</label>
                 <input id="trick-or-treat" name="trick-or-treat" type="checkbox">
                 <br><br>
-                <div><label for="fname">First Name:</label>
-                    <input id="fname" name="first_name" type="text" placeholder="your first name" class="text-input"
-                        required></div>
-                <div><label for="lname">Last Name:</label>
-                    <input id="lname" name="last_name" type="text" placeholder="your last name" class="text-input"
-                        required></div>
-                <div><label for="email">Your Email:</label>
-                    <input id="email" name="email" type="email" placeholder="your email" class="text-input" required>
-                </div>
-                <div><label for="adults">Adults:</label>
-                    <div id="dropdown1"><select name="number-of-adults" id="adults">
+                <ul class="form-layout">
+                    <li><label for="fname">First Name:</label>
+                        <input id="fname" name="first_name" type="text" placeholder="your first name" class="text-input"
+                            required></li>
+                    <li><label for="lname">Last Name:</label>
+                        <input id="lname" name="last_name" type="text" placeholder="your last name" class="text-input"
+                            required></li>
+                    <li><label for="email">Your Email:</label>
+                        <input id="email" name="email" type="email" placeholder="your email" class="text-input"
+                            required></li>
+                    <li><label for="adults">Adults:</label>
+                        <select name="number-of-adults" id="adults">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -62,10 +63,9 @@
                             <option value="8">8</option>
                             <option value="9">9</option>
                             <option value="10">10</option>
-                        </select></div>
-                </div>
-                <div><label for="children">Children:</label>
-                    <div id="dropdown2"><select name="number-of-children" id="children">
+                        </select></li>
+                    <li><label for="children">Children:</label>
+                        <select name="number-of-children" id="children">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -76,14 +76,16 @@
                             <option value="8">8</option>
                             <option value="9">9</option>
                             <option value="10">10</option>
-                        </select></div>
-                </div>
-                <div id="radio-buttons"><input id="route-1" type="radio" name="route_preference" value="route 1">
-                    <label for="route-1">Route 1</label>
-                    <span class="separator">|</span>
-                    <input id="route-2" type="radio" name="route_preference" value="route 2">
-                    <label for="route-2">Route 2</label></div>
-                <input type="submit" class="join-button" value="Trick or Treat!">
+                        </select></li>
+                    <ul id="radio-buttons">
+                        <li><input id="route-1" type="radio" name="route_preference" value="route 1">
+                            <label for="route-1">Route 1</label></li>
+                        <span class="separator">|</span>
+                        <li><input id="route-2" type="radio" name="route_preference" value="route 2">
+                            <label for="route-2">Route 2</label></li>
+                    </ul>
+                    <li><input type="submit" class="join-button" value="Trick or Treat!"></li>
+                </ul>
             </fieldset>
         </form>
         <form action="https://formdump.codeinstitute.net" method="POST" id="home-form">
@@ -92,29 +94,29 @@
                 <label for="offer-home">click here:</label>
                 <input id="offer-home" name="offer_home" type="checkbox">
                 <br><br>
-                <div><label for="f_name">First Name:</label>
-                    <input id="f_name" name="first_name" type="text" placeholder="your first name" class="text-input"
-                        required></div>
-                <div><label for="l_name">Last Name:</label>
-                    <input id="l_name" name="last_name" type="text" placeholder="your last name" class="text-input"
-                        required></div>
-                <div><label for="e_mail">Your Email:</label>
-                    <input id="e_mail" name="email" type="email" placeholder="your email" class="text-input" required>
-                </div>
-                <div><label for="street">Your street:</label>
-                    <select name="street" id="street">
-                        <option value="Brewer Street">Brewer Street</option>
-                        <option value="Black Cat Drive">Black Cat Drive</option>
-                        <option value="Blood's Point Road">Blood's Point Road</option>
-                        <option value="Ghost House Lane">Ghost House Lane</option>
-                        <option value="Shadow Avenue">Shadow Avenue</option>
-                        <option value="Devil's Dyke Road">Devil's Dyke Road</option>
-                    </select></div>
-                <div>
-                    <label for="housenumber">Housenumber:</label>
-                    <input id="housenumber" name="housenumber" type="text" placeholder="No." required>
-                </div>
-                <input type="submit" class="join-button second-button" value="Trick or Treat!">
+                <ul class="form-layout">
+                    <li><label for="f_name">First Name:</label>
+                        <input id="f_name" name="first_name" type="text" placeholder="your first name"
+                            class="text-input" required></li>
+                    <li><label for="l_name">Last Name:</label>
+                        <input id="l_name" name="last_name" type="text" placeholder="your last name" class="text-input"
+                            required></li>
+                    <li><label for="e_mail">Your Email:</label>
+                        <input id="e_mail" name="email" type="email" placeholder="your email" class="text-input"
+                            required></li>
+                    <li><label for="street">Your street:</label>
+                        <select name="street" id="street">
+                            <option value="Brewer Street">Brewer Street</option>
+                            <option value="Black Cat Drive">Black Cat Drive</option>
+                            <option value="Blood's Point Road">Blood's Point Road</option>
+                            <option value="Ghost House Lane">Ghost House Lane</option>
+                            <option value="Shadow Avenue">Shadow Avenue</option>
+                            <option value="Devil's Dyke Road">Devil's Dyke Road</option>
+                        </select></li>
+                    <li><label for="housenumber">Housenumber:</label>
+                        <input id="housenumber" name="housenumber" type="text" placeholder="No." required></li>
+                    <li><input type="submit" class="join-button" value="Trick or Treat!"></li>
+                </ul>
             </fieldset>
         </form>
     </section>
