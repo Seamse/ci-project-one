@@ -212,7 +212,7 @@ iframe {
 
 footer {
     height: 15vh;
-    padding: 1.5em;
+    padding: 1.5rem;
     color: #E28653;
     font-size: 230%;
     display: flex;
@@ -221,7 +221,7 @@ footer {
 }
 
 footer>a {
-    padding: 0 9rem 0 9rem;
+    padding: 0 9vw 0 9vw;
 }
 
 /* costume gallery */
@@ -272,7 +272,7 @@ legend {
 
 #trick-form,
 #home-form {
-    width: 30vw;
+    width: 60vw;
     background-color: rgba(24, 21, 23, 0.6);
     font-weight: 600;
     font-size: 130%;
@@ -354,31 +354,43 @@ select,
 @media screen and (max-width:1500px) {
 
     #mid-content {
+        display: flex;
         flex-direction: column;
     }
 
     h2 {
         position: relative;
+        padding: 6rem 0 0 0;
     }
 
     #mid-section-left,
     #mid-section-right {
-        top: -9em;
+        margin: -12em 30vw 0 9vw;
     }
 
-    #mid-right-header,
-    #mid-left-header,
-    #mid-section-right,
-    #mid-section-left {
-        margin: 0 auto;
+    #mid-right-header {
+        margin: -24rem 30vw 0 9vw;
+    }
+
+    #mid-left-header {
+        margin: 0 30vw 0 9vw;
+    }
+
+    #mid-section-mid {
+        margin: -12rem 30vw 0 63vw;
     }
 
     div>img {
-        margin-top: -9em;
+        width: 27vw;
+        height: auto;
     }
 
-    hr {
-        margin-top: -12em;
+    .info-box {
+        min-width: fit-content;
+    }
+
+    .text-right {
+        text-align: left;
     }
 
     #gallery {
@@ -387,15 +399,133 @@ select,
 
 }
 
+/* for medium to larger screens size from 1350px wide and down */
 
-/* for medium screens size from 1350px wide and down */
+@media screen and (max-width:1350px) {
 
-@media screen and (max-width:1350px) {}
+    #halloween-videos {
+        flex-direction: column;
+        margin: 0 auto;
+    }
 
-/* for small to medium screens size from 950px and down */
+    .video-header {
+        margin-top: 1.5rem;
+    }
 
-@media screen and (max-width:950px) {}
+}
+
+/* for medium screens size from 1150px wide and down */
+
+@media screen and (max-width:1150px) {
+
+
+    #mid-left-header,
+    #mid-right-header,
+    #mid-section-left,
+    #mid-section-mid,
+    #mid-section-right {
+        text-align: center;
+        padding: 1.5rem;
+        min-width: 66vw;
+    }
+
+    #mid-left-header,
+    #mid-right-header,
+    #mid-section-mid {
+        margin: 0 auto;
+    }
+
+    #mid-section-left,
+    #mid-section-right {
+        margin: -12rem 0 6rem 0;
+    }
+
+    #gallery {
+        column-count: 3;
+    }
+
+}
 
 /* for small screens size from 800px wide and down */
 
-@media screen and (max-width:800px) {}
+@media screen and (max-width:800px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    #menu {
+        margin-top: -1.5rem;
+    }
+
+    .menu-contrast {
+        color: #2a2036;
+    }
+
+    .active {
+        text-decoration: underline #faf3be;
+    }
+
+
+    body {
+        font-size: 14px;
+    }
+
+    #mid-section-left,
+    #mid-section-right {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #mid-left-header,
+    #mid-right-header {
+        margin-bottom: -9rem;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+
+    #form-section {
+        flex-direction: column;
+    }
+
+    #trick-form,
+    #home-form {
+        width: 90vw;
+    }
+
+    #gallery {
+        column-count: 2;
+    }
+}
+
+/* for small screens size from 430px wide and down */
+
+@media screen and (max-width:430px) {
+
+    #page-title {
+        font-size: 660%;
+    }
+
+    #menu {
+        font-size: 90%;
+        margin-top: 0;
+    }
+
+    .info-box>h3 {
+        font-size: 150%;
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
+
+    .info-box>p {
+        font-size: 110%;
+        padding-top: 1rem;
+    }
+
+    iframe {
+        width: auto;
+        height: auto;
+    }
+}
