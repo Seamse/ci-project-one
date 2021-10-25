@@ -14,7 +14,7 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #2a2036;
+    background-color: #181517;
     color: #faf3be;
     display: flex;
     min-height: 100vh;
@@ -36,14 +36,14 @@ header {
 }
 
 .active {
-    color: #cc4418;
+    color: #E28653;
 }
 
 #page-title {
     font-family: "Ghastly Panic", sans-serif;
     font-size: 900%;
     color: #cc4418;
-    text-shadow: 0 0 6px #cc4418;
+    text-shadow: 0 0 6px #2A2036;
     letter-spacing: 6px;
 }
 
@@ -79,7 +79,7 @@ a:hover {
     width: 100%;
     height: 600px;
     overflow: hidden;
-    box-shadow: 0 0 1.5em 1.5em #181517;
+    box-shadow: 0 0 1.5em 1.5em #2A2036;
 }
 
 #hero-image {
@@ -121,7 +121,7 @@ section>h2 {
     font-family: "Ghastly Panic", sans-serif;
     font-size: 500%;
     color: #E28653;
-    text-shadow: 0 0 6px #181517;
+    text-shadow: 0 0 6px #2A2036;
     position: absolute;
     padding: 6rem;
 }
@@ -191,7 +191,7 @@ div>img {
     width: 18vw;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 1.5em 1.5em #181517;
+    box-shadow: 0 0 1.5em 1.5em #2A2036;
     margin-top: 6rem;
 }
 
@@ -212,12 +212,15 @@ hr {
 
 .video-header {
     color: #cc4418;
+    text-shadow: 0 0 6px #2A2036;
     text-align: center;
+    padding-bottom: 1em;
 }
 
 iframe {
     width: 27rem;
     height: 15rem;
+    box-shadow: 0 0 1.5em 1.5em #2A2036;
 }
 
 /* footer */
