@@ -23,11 +23,11 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <span class="separator"><i class="fas fa-cat"></i></span>
+                <li><span class="separator"><i class="fas fa-cat"></i></span></li>
                 <li>
                     <a href="gallery.html">Costume Gallery</a>
                 </li>
-                <span class="separator"><i class="fas fa-cat"></i></span>
+                <li><span class="separator"><i class="fas fa-cat"></i></span></li>
                 <li>
                     <a href="signup.html" class="active">Sign Up</a>
                 </li>
@@ -37,7 +37,9 @@
     <section id="form-section">
         <form action="https://formdump.codeinstitute.net" method="POST" id="trick-form">
             <fieldset>
-                <legend>Come Trick or Treating!</legend>
+                <legend>
+                    <h3>Come Trick or Treating!</h3>
+                </legend>
                 <label for="trick-or-treat">click here:</label>
                 <input id="trick-or-treat" name="trick-or-treat" type="checkbox">
                 <br><br>
@@ -77,19 +79,24 @@
                             <option value="9">9</option>
                             <option value="10">10</option>
                         </select></li>
-                    <ul id="radio-buttons">
-                        <li><input id="route-1" type="radio" name="route" value="route 1" required>
-                            <label for="route-1">Route 1</label></li>
-                        <span class="separator"><i class="fas fa-crow"></i></span>
-                        <li><input id="route-2" type="radio" name="route" value="route 2">
-                            <label for="route-2">Route 2</label></li>
-                        <li><input type="submit" class="join-button" value="Trick or Treat!"></li>
-                    </ul>
+                    <li>
+                        <ul id="radio-buttons">
+                            <li><input id="route-1" type="radio" name="route" value="route 1" required>
+                                <label for="route-1">Route 1</label></li>
+                            <li><span class="separator"><i class="fas fa-crow"></i></span></li>
+                            <li><input id="route-2" type="radio" name="route" value="route 2">
+                                <label for="route-2">Route 2</label></li>
+                            <li><input type="submit" class="join-button" value="Trick or Treat!"></li>
+                        </ul>
+                    </li>
+                </ul>
             </fieldset>
         </form>
         <form action="https://formdump.codeinstitute.net" method="POST" id="home-form">
             <fieldset>
-                <legend>Add your home to the map!</legend>
+                <legend>
+                    <h3>Add your home to the map!</h3>
+                </legend>
                 <label for="offer-home">click here:</label>
                 <input id="offer-home" name="offer_home" type="checkbox">
                 <br><br>
