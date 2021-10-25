@@ -482,6 +482,10 @@ select,
         margin-bottom: -9rem;
     }
 
+    #mid-section-mid {
+        margin-top: 1.5rem;
+    }
+
     .text-right {
         text-align: center;
     }
@@ -500,9 +504,14 @@ select,
     }
 }
 
-/* for small screens size from 430px wide and down */
+/* for small screens size from 450px wide and down */
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:450px) {
+
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+    }
 
     #page-title {
         font-size: 660%;
@@ -513,15 +522,21 @@ select,
         margin-top: 0;
     }
 
+    .info-box {
+        padding: 1.5rem;
+        min-width: 99vw;
+    }
+
+    .text-right {
+        margin-left: 1.5rem;
+    }
+
     .info-box>h3 {
         font-size: 150%;
-        padding-bottom: 0;
-        padding-top: 1rem;
     }
 
     .info-box>p {
         font-size: 110%;
-        padding-top: 1rem;
     }
 
     iframe {
