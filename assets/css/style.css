@@ -545,6 +545,11 @@ select,
 
     #menu {
         font-size: 90%;
+        margin-top: 0;
+    }
+
+    .separator {
+        margin: 0 0.5em;
     }
 
     #cover-text {
