@@ -284,7 +284,7 @@ legend {
 
 #trick-form,
 #home-form {
-    width: 60vw;
+    width: 42vw;
     background-color: rgba(24, 21, 23, 0.6);
     font-weight: 600;
     font-size: 130%;
@@ -512,7 +512,7 @@ select,
 
     #trick-form,
     #home-form {
-        width: 90vw;
+        width: 60vw;
     }
 
     #gallery {
@@ -554,6 +554,11 @@ select,
 
     .info-box>p {
         font-size: 110%;
+    }
+
+    #trick-form,
+    #home-form {
+        width: 90vw;
     }
 
     iframe {
