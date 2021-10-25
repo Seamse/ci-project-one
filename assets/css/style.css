@@ -539,6 +539,10 @@ select,
         margin-top: 0;
     }
 
+    #cover-text {
+        position: relative;
+    }
+
     .info-box {
         padding: 1.5rem;
         min-width: 99vw;
