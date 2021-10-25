@@ -530,6 +530,11 @@ select,
         overflow-y: scroll;
     }
 
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
     #page-title {
         font-size: 660%;
     }
