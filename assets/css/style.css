@@ -535,17 +535,21 @@ select,
         overflow-y: scroll;
     }
 
+    header {
+        padding: 1vh 1vw;
+    }
+
     #page-title {
         font-size: 660%;
     }
 
     #menu {
         font-size: 90%;
-        margin-top: 0;
     }
 
     #cover-text {
         position: relative;
+        bottom: 30vh;
     }
 
     .info-box {
