@@ -116,7 +116,7 @@ Index.html result:
 Gallery.html result:  
 ![Lighthouse results Gallery](assets/readme_images/Lighthouse_Gallery.jpg)  
 Signup.html result:  
-![Lighthouse results Sign Up](assets/readme_images/Lighthouse_Sign_Up.jpg)  
+![Lighthouse results Sign Up](assets/readme_images/Lighthouse_Sign_Up.jpg)    
 
 **Unfixed Bugs**  
 As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading, despite this causing an error on the W3C validator for the gallery.html page.  
