@@ -111,8 +111,12 @@ The pages now look fine on my phone.
 
  * Accessibility
    * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in devtools:  
-
-![Lighthouse results](assets/readme_images/Lighthouse.jpg)  
+Index.html result:  
+![Lighthouse results Home](assets/readme_images/Lighthouse.jpg)  
+Gallery.html result:  
+![Lighthouse results Gallery](assets/readme_images/Lighthouse_Gallery.jpg)  
+Signup.html result:  
+![Lighthouse results Sign Up](assets/readme_images/Lighthouse_Sign_Up.jpg)  
 
 **Unfixed Bugs**  
 As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading,  
