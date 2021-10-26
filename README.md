@@ -97,7 +97,7 @@ I forgot to change the ID names linking the labels and input fields, changing th
 
 * A horizontal scrollbar showed up on the mobile version of the website.  
 As I could not find what was causing this overflow, I googled a solution.  
-using overflow-x:hidden on both the html and body sections seemed to do the trick.  
+using overflow-x:hidden on both the html and body elements seemed to do the trick.  
 The pages now look fine on my phone.  
 
 ## Validator Testing  
@@ -119,8 +119,7 @@ Signup.html result:
 ![Lighthouse results Sign Up](assets/readme_images/Lighthouse_Sign_Up.jpg)  
 
 **Unfixed Bugs**  
-As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading,  
-despite this causing an error on the W3C validator for the gallery.html page.  
+As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading, despite this causing an error on the W3C validator for the gallery.html page.  
 
 ---  
 
