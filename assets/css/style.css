@@ -454,6 +454,7 @@ for medium to larger screens size from 1350px wide and down
     #halloween-videos {
         flex-direction: column;
         margin: 0 auto;
+        text-align: center;
     }
 
     .video-header {
