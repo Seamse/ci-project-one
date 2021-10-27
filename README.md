@@ -22,8 +22,8 @@ The Halloween Logo is styled in the 'Ghastly Panic' font and positioned at the t
 The navigation menu is positioned at the top right of every page or below the logo on smaller devices.  
 It contains the options: 'Home', 'Costume Gallery' and 'Sign Up'.
     * 'Home' leads back to the main page.  
-    * 'Costume Gallery' leads to the seperate gallery page.  
-    * 'Sign Up' leads to the seperate sign up page, containing both forms.  
+    * 'Costume Gallery' leads to the separate gallery page.  
+    * 'Sign Up' leads to the separate sign up page, containing both forms.  
 
     The navigation menu is styled so that the active page-name is shown in a different color.  
      
