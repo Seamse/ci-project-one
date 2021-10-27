@@ -145,6 +145,15 @@ The live link can be found here: [Halloween in Barrenborough](https://seamse.git
 
 ---  
 
+## Potential Future Features  
+
+* Ideas for future additions could be:
+  * A spooky stories page.
+  * A Halloween recipes page (make your own spooky treats).
+  * Adding a simple 'Halloween' themed game for children.  
+
+---  
+
 ## Credits  
 
 ### Content  
