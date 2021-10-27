@@ -101,7 +101,7 @@ The custom 404 error page gives viewers something nicer to look at than a regula
 
 * HTML  
   * No errors were returned when passing through the official W3C Validator for pages index.html, signup.html and 404.html.  
-   page gallery.html came back with error: 'Warning: Section lacks heading.'    
+   page gallery.html came back with the warning: 'Section lacks heading'.    
 
 * CSS
   * No errors were returned when passing through the official W3C Validator.    
