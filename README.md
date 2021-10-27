@@ -9,7 +9,7 @@ Everyone living on one of the roads which are part of either route can sign up t
 
 The project was made using only HTML and CSS.  
 
-![Halloween in Barrenborough on multiple platforms](assets/readme_images/Responsive.jpg)  
+![Halloween in Barrenborough on multiple platforms](assets/readme_images/responsive.jpg)  
 
 ---
 
@@ -34,7 +34,7 @@ it contains the logos for Facebook, Instagram, Twitter and Youtube.
 Clicking on one of these opens the corresponding website in a new tab.  
 
 * **Color Scheme:**  
-![Hex value color scheme](assets/readme_images/Colors.jpg)
+![Hex value color scheme](assets/readme_images/colors.jpg)
 
 ---  
 
@@ -42,28 +42,28 @@ Clicking on one of these opens the corresponding website in a new tab.
 The Header contains a large hero-image of two scary Jack-o-Lanterns which will come forward to haunt you when you touch them with your mouse.  
 The purpose of the website is summarized in a small heading in the 'Ghastly Panic' font, placed over the image.  
 
-![Logo, Navigation Menu and Header](assets/readme_images/Header.jpg)  
+![Logo, Navigation Menu and Header](assets/readme_images/header.jpg)  
 
 * **Mid Section**  
 The Mid-Section of the main page contains short summaries of text and bullets regarding why you should sign up.  
 The time, date and which streets will be included on which routes is also indicated.  
 A toothy green Jack-o-Lantern adds flair in the center.  
 
-![Mid section image](assets/readme_images/Mid-section.jpg)  
+![Mid section image](assets/readme_images/mid-section.jpg)  
 
 * **Video Section**  
 The Video section contains three animated youtube videos about Halloween aimed at children.  
 'The Origin of Halloween', 'The Origin of Halloween Costumes' and 'The Origin of Jack-O-Lanterns'.  
 Below these, the website's footer can be seen.  
 
-![Video section image](assets/readme_images/Videos.jpg)  
+![Video section image](assets/readme_images/video-section.jpg)  
 
 ---  
 
 * **Costume Gallery**  
 The Costume Gallery is exactly that, a Photo Gallery of people dressed up for this special Holiday.  
 
-![Costume Gallery image top](assets/readme_images/Gallery1.jpg)  
+![Costume Gallery image top](assets/readme_images/gallery.jpg)  
 
 ---  
 
@@ -72,8 +72,8 @@ The Sign Up page is the page where people can sign up for either 'Trick or Treat
 Each form is closed until the person signing up clicks on the one they wish to use,  leaving both forms optional.  
 A background of a Pumpkin eating another Pumpkin makes the page more playful.  
 
-![Sign up forms closed](assets/readme_images/SignUp1.jpg) 
-![Sign up form Trick or Treat](assets/readme_images/SignUp3.jpg)   
+![Sign up forms closed](assets/readme_images/signup_closed.jpg) 
+![Sign up form Trick or Treat](assets/readme_images/signup_open.jpg)   
 
 ---  
 
@@ -112,11 +112,11 @@ The pages now look fine on my phone.
  * Accessibility
    * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in devtools:  
 Index.html result:  
-![Lighthouse results Home](assets/readme_images/Lighthouse.jpg)  
+![Lighthouse results Home](assets/readme_images/lighthouse_index.jpg)  
 Gallery.html result:  
-![Lighthouse results Gallery](assets/readme_images/Lighthouse_Gallery.jpg)  
+![Lighthouse results Gallery](assets/readme_images/lighthouse_gallery.jpg)  
 Signup.html result:  
-![Lighthouse results Sign Up](assets/readme_images/Lighthouse_Sign_Up.jpg)    
+![Lighthouse results Sign Up](assets/readme_images/lighthouse_signup.jpg)    
 
 **Unfixed Bugs**  
 As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading, despite this causing an error on the W3C validator for the gallery.html page.  

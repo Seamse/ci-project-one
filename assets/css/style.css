@@ -22,14 +22,16 @@ body {
     margin: 0;
 }
 
-/* header and navigation menu */
+/* -----------------------------------------------
+header and navigation menu 
+-----------------------------------------------*/
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 0.5rem 0 0.5rem;
-    height: 15vh;
+    height: 11em;
     padding: 1.5em;
     position: relative;
     z-index: 2;
@@ -73,7 +75,9 @@ a:hover {
     color: #cc4418;
 }
 
-/* hero image */
+/*----------------------------------------------- 
+hero image 
+-----------------------------------------------*/
 
 #hero-section {
     width: 100%;
@@ -103,13 +107,15 @@ a:hover {
     font-family: "Ghastly Panic", sans-serif;
     text-align: center;
     letter-spacing: 6px;
-    position: absolute;
+    position: relative;
     left: 60vw;
-    bottom: 36vh;
+    bottom: 9em;
     z-index: 2;
 }
 
-/* mid section */
+/*----------------------------------------------- 
+mid section 
+-----------------------------------------------*/
 
 #mid-content {
     display: flex;
@@ -196,17 +202,19 @@ div>img {
 }
 
 hr {
-    background: url('../images/hr2.png') no-repeat center top;
+    background: url('../images/halloween-hr.png') no-repeat center top;
     display: block;
     height: 21rem;
     margin-top: 3rem;
 }
 
-/* video section */
+/*-----------------------------------------------
+video section 
+-----------------------------------------------*/
 
 #halloween-videos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 1.5rem 0 1.5rem;
 }
 
@@ -214,7 +222,11 @@ hr {
     color: #cc4418;
     text-shadow: 0 0 6px #2A2036;
     text-align: center;
-    padding-bottom: 1.5em;
+    font-family: "Ghastly Panic", sans-serif;
+    font-size: 2.2em;
+    letter-spacing: 4px;
+    font-weight: 300;
+    padding-bottom: 1em;
 }
 
 iframe {
@@ -223,7 +235,9 @@ iframe {
     box-shadow: 0 0 1.5em 1.5em #2A2036;
 }
 
-/* footer */
+/*----------------------------------------------- 
+footer 
+-----------------------------------------------*/
 
 footer {
     height: 15vh;
@@ -239,7 +253,9 @@ footer>a {
     padding: 0 9vw 0 9vw;
 }
 
-/* costume gallery */
+/*----------------------------------------------- 
+costume gallery 
+-----------------------------------------------*/
 
 #gallery {
     line-height: 0;
@@ -251,7 +267,14 @@ footer>a {
     width: 100%;
 }
 
-/* sign up page */
+/*----------------------------------------------- 
+sign up page 
+-----------------------------------------------*/
+
+input[type="checkbox"] {
+    width: 3em;
+    height: 3em;
+}
 
 input[type="checkbox"]~input,
 input[type="checkbox"]~label,
@@ -362,9 +385,13 @@ select,
     box-shadow: 0 0 6px #faf3be;
 }
 
-/* media queries */
+/*----------------------------------------------- 
+media queries 
+-----------------------------------------------*/
 
-/* for larger screens size from 1500px wide and down */
+/*----------------------------------------------- 
+for larger screens size from 1500px wide and down 
+-----------------------------------------------*/
 
 @media screen and (max-width:1500px) {
 
@@ -414,7 +441,9 @@ select,
 
 }
 
-/* for medium to larger screens size from 1350px wide and down */
+/*----------------------------------------------- 
+for medium to larger screens size from 1350px wide and down 
+-----------------------------------------------*/
 
 @media screen and (max-width:1350px) {
 
@@ -429,7 +458,9 @@ select,
 
 }
 
-/* for medium screens size from 1150px wide and down */
+/*----------------------------------------------- 
+for medium screens size from 1150px wide and down 
+-----------------------------------------------*/
 
 @media screen and (max-width:1150px) {
 
@@ -461,7 +492,9 @@ select,
 
 }
 
-/* for small screens size from 800px wide and down */
+/*----------------------------------------------- 
+for small screens size from 800px wide and down 
+-----------------------------------------------*/
 
 @media screen and (max-width:800px) {
 
@@ -469,22 +502,13 @@ select,
         flex-direction: column;
     }
 
+    #page-title {
+        font-size: 700%;
+    }
+
     #menu {
         margin-top: -1.5rem;
     }
-
-    .menu-contrast {
-        color: #2a2036;
-    }
-
-    .active {
-        text-decoration: underline #faf3be;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
 
     body {
         font-size: 14px;
@@ -523,7 +547,9 @@ select,
     }
 }
 
-/* for small screens size from 450px wide and down */
+/*----------------------------------------------- 
+for small screens size from 450px wide and down 
+-----------------------------------------------*/
 
 @media screen and (max-width:450px) {
 
@@ -543,7 +569,7 @@ select,
     }
 
     #page-title {
-        font-size: 660%;
+        font-size: 600%;
     }
 
     #menu {
@@ -556,8 +582,7 @@ select,
     }
 
     #cover-text {
-        position: relative;
-        bottom: 48vh;
+        left: 0;
     }
 
     .info-box {
