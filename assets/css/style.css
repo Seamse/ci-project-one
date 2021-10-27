@@ -276,6 +276,8 @@ input[type="checkbox"] {
     height: 3em;
 }
 
+/* start of code to keep forms closed until checkbox has been checked */
+
 input[type="checkbox"]~input,
 input[type="checkbox"]~label,
 input[type="checkbox"]~ul {
@@ -291,6 +293,8 @@ input[type="checkbox"]:checked~ul {
     display: flex;
     flex-direction: column;
 }
+
+/* end of code to keep forms closed until checkbox has been checked */
 
 #form-section {
     background: url('../images/form-bg.jpg') no-repeat center center;
