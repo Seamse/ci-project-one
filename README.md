@@ -129,7 +129,7 @@ using overflow-x:hidden on both the html and body elements seemed to do the tric
 The pages now look as they should on mobile phones.  
 
 **Unfixed Bugs**  
-As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading, despite this causing an error on the W3C validator for the gallery.html page.  
+As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading, despite this causing a warning on the W3C validator for the gallery.html page. In my opinion, adding a heading would ruin the page's aesthetic.  
 
 ---  
 
