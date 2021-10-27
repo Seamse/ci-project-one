@@ -1,10 +1,10 @@
 # Halloween in Barrenborough
 
 Halloween in Barrenborough is a website aimed at people from the fictional town of Barrenborough.  
-Its primary goal is to set the stage for a good spooky night of trick or treating and fun for all.  
-The spooky website, cute informative Halloween videos and 'scary' costume gallery are designed to enthuse children (and adults) for the holiday and encourage them to sign up.  
+Its primary goal is to set the stage for an exciting night of trick or treating and fun for all.  
+The spooky website, cute informative Halloween videos and inspirational costume gallery are designed to enthuse children (and adults) for the holiday and encourage them to sign up.  
 
-Families with children can sign up for trick or treating through the sign up form, they can choose between two different routes.  
+Families with children can sign up for trick or treating through a sign up form where they can choose between two different routes.  
 Everyone living on one of the roads which are part of either route can sign up through a second sign up form to add their address to the map.  
 
 The project was made using only HTML and CSS.  
@@ -16,7 +16,8 @@ The project was made using only HTML and CSS.
 ## Features
 
 * **Logo**  
-The Halloween Logo is styled in the 'Ghastly Panic' font and positioned at the top left of every page.
+The Halloween Logo is styled in the 'Ghastly Panic' font and positioned at the top left of every page.  
+The bottom of the Logo 'bleeds' over onto the image(s) underneath it on bigger screen sizes to give a spookier effect.
 
 * **Navigation**  
 The navigation menu is positioned at the top right of every page or below the logo on smaller devices.  
@@ -31,7 +32,7 @@ It contains the options: 'Home', 'Costume Gallery' and 'Sign Up'.
 * **Social Media Footer**  
 The social media footer is positioned at the bottom of every page,  
 it contains the logos for Facebook, Instagram, Twitter and Youtube.  
-Clicking on one of these opens the corresponding website in a new tab.  
+Clicking on one of these opens the corresponding website in a new tab (as Barrenborough is fictional, they lead to each respective main page rather than the specific 'Halloween in Barrenborough' social media platforms).  
 
 * **Color Scheme:**  
 ![Hex value color scheme](assets/readme_images/colors.jpg)
@@ -39,7 +40,7 @@ Clicking on one of these opens the corresponding website in a new tab.
 ---  
 
 * **Header**  
-The Header contains a large hero-image of two scary Jack-o-Lanterns which will come forward to haunt you when you touch them with your mouse.  
+The Header contains a large hero-image of two scary Jack-o-Lanterns which will come forward to haunt you when you move over them with your mouse.  
 The purpose of the website is summarized in a small heading in the 'Ghastly Panic' font, placed over the image.  
 
 ![Logo, Navigation Menu and Header](assets/readme_images/header.jpg)  
@@ -52,7 +53,7 @@ A toothy green Jack-o-Lantern adds flair in the center.
 ![Mid section image](assets/readme_images/mid-section.jpg)  
 
 * **Video Section**  
-The Video section contains three animated youtube videos about Halloween aimed at children.  
+The Video section contains three animated youtube videos (aimed at children) about Halloween.  
 'The Origin of Halloween', 'The Origin of Halloween Costumes' and 'The Origin of Jack-O-Lanterns'.  
 Below these, the website's footer can be seen.  
 
@@ -77,33 +78,29 @@ A background of a Pumpkin eating another Pumpkin makes the page more playful.
 
 ---  
 
+* **404 Page**  
+The custom 404 error page gives viewers something nicer to look at than a regular error page and keeps the Halloween atmosphere despite an error occuring.  
+
+![404 error page image](assets/readme_images/404.jpg)  
+
+---  
+
 ## Testing  
 
 * I tested that this website works in different browsers: Chrome, Microsoft Edge, Safari  
 
-* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.  
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar and double-checking on my own iphone SE, ipad, laptop and the office computer.  
 
 * I confirmed that all written text on the pages is all readable and easy to understand.  
 
-* I have confirmed that both forms work, will only accept an email in the email field and all required fields are made required.  
+* I confirmed that all videos embedded in the website work and the social media icons open on a new tab.
 
-## Bugs  
-
-**Solved Bugs**  
-
-* The 'trick-or-treat' sign up form input fields would change color when hovering over the 'add-your-home' sign up form.  
-While making the forms I had copied the code of the first form, to use in the second form.  
-I forgot to change the ID names linking the labels and input fields, changing these IDs fixed the issue.  
-
-* A horizontal scrollbar showed up on the mobile version of the website.  
-As I could not find what was causing this overflow, I googled a solution.  
-using overflow-x:hidden on both the html and body elements seemed to do the trick.  
-The pages now look fine on my phone.  
+* I confirmed that both forms work, will only accept an email in the email field and all required fields are made required.  
 
 ## Validator Testing  
 
 * HTML  
-  * No errors were returned when passing through the official W3C Validator for pages index.html and signup.html.  
+  * No errors were returned when passing through the official W3C Validator for pages index.html, signup.html and 404.html.  
    page gallery.html came back with error: 'Warning: Section lacks heading.'    
 
 * CSS
@@ -117,6 +114,19 @@ Gallery.html result:
 ![Lighthouse results Gallery](assets/readme_images/lighthouse_gallery.jpg)  
 Signup.html result:  
 ![Lighthouse results Sign Up](assets/readme_images/lighthouse_signup.jpg)    
+
+## Bugs  
+
+**Solved Bugs**  
+
+* The 'trick-or-treat' sign up form input fields would change color when hovering over the 'add-your-home' sign up form.  
+While making the forms I had copied the code of the first form, to use in the second form.  
+I forgot to change the ID names linking the labels and input fields, changing these IDs fixed the issue.  
+
+* A horizontal scrollbar showed up on the mobile version of the website.  
+As I could not find what was causing this overflow, I googled a solution.  
+using overflow-x:hidden on both the html and body elements seemed to do the trick.  
+The pages now look as they should on mobile phones.  
 
 **Unfixed Bugs**  
 As the costume gallery is self explanatory and contains only visual elements in the form of photos I deliberately did not add a heading, despite this causing an error on the W3C validator for the gallery.html page.  
