@@ -488,7 +488,11 @@ for medium screens size from 1150px wide and down
 
     #mid-section-left,
     #mid-section-right {
-        margin: -12rem 0 6rem 0;
+        margin-top: -12rem;
+    }
+
+    hr {
+        margin-top: 6rem;
     }
 
     #gallery {
@@ -536,6 +540,10 @@ for small screens size from 800px wide and down
 
     .text-right {
         text-align: center;
+    }
+
+    hr {
+        margin-top: 0;
     }
 
     #form-section {
