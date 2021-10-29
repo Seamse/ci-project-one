@@ -188,7 +188,7 @@ p>span {
     padding: 1rem;
 }
 
-.text-right {
+.right-box {
     text-align: right;
     margin-right: 3rem;
 }
@@ -435,7 +435,7 @@ for larger screens size from 1500px wide and down
         min-width: fit-content;
     }
 
-    .text-right {
+    .right-box {
         text-align: left;
     }
 
@@ -538,7 +538,7 @@ for small screens size from 800px wide and down
         margin-top: 1.5rem;
     }
 
-    .text-right {
+    .right-box {
         text-align: center;
     }
 
@@ -603,7 +603,7 @@ for small screens size from 450px wide and down
         min-width: 99vw;
     }
 
-    .text-right {
+    .right-box {
         margin-left: 1.5rem;
     }
 
